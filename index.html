@@ -1,0 +1,17 @@
+---
+id:     home
+title:  Cheat Sheets
+layout: site-page
+---
+
+
+
+<div class="home">
+
+  <ul id="cheatSheetsList">
+    {% for cheat_sheet in site.cheat_sheets %}
+      <li><a href="{{ cheat_sheet.url | prepend: site.baseurl }}">{{ cheat_sheet.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>

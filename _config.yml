@@ -1,0 +1,65 @@
+# Site Settings
+#--------------------
+
+title:       Cheat Sheets
+description: A collection of self compiled cheat sheets for quick reference
+
+baseurl: /cheat-sheets
+url:     http://bsara.github.io
+
+email:            bsara.dev@gmail.com
+twitter_username: bsara_dev
+github_username:  bsara
+
+repo_base_url: https://github.com/bsara/cheat-sheets
+src_base_url:  https://github.com/bsara/cheat-sheets
+
+
+collections:
+  project_pages:
+    output:    true
+    permalink: /:path/
+  cheat_sheets:
+    output:    true
+    permalink: /:path/
+
+
+defaults:
+  - scope:
+      type: project_pages
+    values:
+      layout: site-page
+      type:   project-page
+
+  - scope:
+      type: cheat_sheets
+    values:
+      categories: cheat-sheets
+      layout:     cheat-sheet
+      type:       cheat-sheet
+
+
+
+# Prose Settings
+#--------------------
+
+prose:
+  rooturl: /
+  siteurl: http://bsara.github.io/cheat-sheets
+
+
+
+# Build Settings
+#--------------------
+
+markdown: kramdown
+
+sass:
+  style: :compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CNAME
+  - README.md
