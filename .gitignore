@@ -1,3 +1,168 @@
+#---------------------------------------#
+# Project Ignores                       #
+#---------------------------------------#
+
 _site
 .sass-cache
 .jekyll-metadata
+
+
+
+#---------------------------------------#
+# IDEs & Editors Ignores                #
+#---------------------------------------#
+
+# Sublime Text
+/*.sublime*
+.sublime-gulp.cache
+
+# JetBrains IDEs
+/.idea
+
+# Visual Studio Files
+[Bb]in/
+[Bb]uild/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ee]xpress/
+[Pp]ublish/
+AppPackages/
+FakesAssemblies/
+x86/
+x64/
+csx
+sql
+.builds
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.build.csdef
+
+Backup*/
+_UpgradeReport_Files/
+UpgradeLog*.XML
+
+Generated_Code/
+TestResults/
+[Tt]est[Rr]esult*
+
+.localhistory/
+
+ipch/
+ClientBin
+*.suo
+*.user
+*.sln.docstates
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.psess
+*.vsp
+*.vspx
+*.gpState
+.*crunch*.local.xml
+*.ncrunch*
+*.Publish.xml
+*.Cache
+~$*
+*.dbmdl
+
+_ReSharper*
+[Ss]tyle[Cc]op.*
+
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+
+# NuGet Packages
+packages/**/
+packages/!repositories.config
+
+
+
+#---------------------------------------#
+# General Ignores                       #
+#---------------------------------------#
+
+*~
+*.orig
+*.log
+*.pem
+
+
+
+#---------------------------------------#
+# Linux Ignores                         #
+#---------------------------------------#
+
+# KDE directory preferences
+.directory
+
+
+
+#---------------------------------------#
+# OSX Ignores                           #
+#---------------------------------------#
+
+.DS_Store
+.AppleDouble
+.LSOverride
+.localized
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+
+#---------------------------------------#
+# Windows Ignores                       #
+#---------------------------------------#
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+*.dmp

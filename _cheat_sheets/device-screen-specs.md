@@ -1,7 +1,8 @@
 ---
-id:    deviceScreenSpecs
-title: Device Screen Specs
-date:  2016-04-28
+id:         deviceScreenSpecs
+title:      Device Screen Specs
+date:       2016-04-28
+categories: hardware
 ---
 
 
