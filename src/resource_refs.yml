@@ -1,0 +1,5 @@
+git:
+  simple_workflow:
+    svg:     /assets/git/bsara_git-simple-workflow.svg
+    pdf:     /assets/git/bsara_git-simple-workflow.pdf
+    draw_io: /assets/git/bsara_git-simple-workflow.xml

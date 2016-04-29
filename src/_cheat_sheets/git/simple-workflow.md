@@ -6,4 +6,4 @@ categories: git, version control, vcs, development processes
 ---
 
 
-***TODO***
+[![Simple Git Workflow]({{ site.resource_refs.git.simple_workflow.svg | site.baseurl }})]({{ site.resource_refs.git.simple_workflow.svg | site.baseurl }})
