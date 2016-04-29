@@ -55,7 +55,7 @@ prose:
 # Build Settings
 #--------------------
 
-source:  src
+source: src
 exclude:
   - resource_refs.yml
 
