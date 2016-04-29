@@ -47,7 +47,7 @@ defaults:
 #--------------------
 
 prose:
-  rooturl: _cheat_sheets
+  rooturl: src
   siteurl: http://bsara.github.io/cheat-sheets
 
 
