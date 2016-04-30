@@ -15,7 +15,7 @@ repo_base_url: https://github.com/bsara/cheat-sheets
 src_base_url:  https://github.com/bsara/cheat-sheets
 
 
-resource_refs: src/resource_refs.yml
+resource_refs: _data/resource_refs.yml
 
 
 collections:
@@ -55,8 +55,11 @@ prose:
 # Build Settings
 #--------------------
 
-source: src
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
   - resource_refs.yml
 
 markdown: kramdown
