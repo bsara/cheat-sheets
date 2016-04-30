@@ -6,4 +6,4 @@ categories: git, version control, vcs, development processes
 ---
 
 
-[![Simple Git Workflow]({{ "/assets/git/bsara_git-simple-workflow.svg" | site.baseurl }})]({{ "/assets/git/bsara_git-simple-workflow.svg" | site.baseurl }})
+[![Simple Git Workflow]({{ "/assets/git/bsara_git-simple-workflow.svg" | prepend: site.baseurl }})]({{ "/assets/git/bsara_git-simple-workflow.svg" | prepend: site.baseurl }})
